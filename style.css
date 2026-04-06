@@ -38,7 +38,7 @@ img {
 }
 
 .section {
-    padding: 58px 58px;
+    padding: 58px;
 }
 
 .section-inner {
@@ -52,7 +52,6 @@ img {
 }
 
 .section-header h2 {
-    font-family: 'Rubik', sans-serif;
     font-weight: 600;
     font-size: 40px;
     line-height: 64px;
@@ -63,7 +62,6 @@ img {
 }
 
 .section-header p {
-    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -82,7 +80,6 @@ img {
     gap: 10px;
     padding: 8px 34px;
     border-radius: 153px;
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 32px;
@@ -110,7 +107,6 @@ img {
     transform: translate(3px, -3px);
 }
 
-
 /* ==============================
    HERO SECTION
    ============================== */
@@ -130,7 +126,6 @@ img {
 .hero-bg img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .hero-overlay {
@@ -155,7 +150,6 @@ img {
 }
 
 .logo {
-    font-family: 'Rubik', sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 32px;
@@ -173,7 +167,6 @@ img {
     display: flex;
     align-items: center;
     padding: 24px 12px;
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 32px;
@@ -204,7 +197,6 @@ img {
     padding: 8px 34px;
     border: 1.5px solid #FFFFFF;
     border-radius: 153px;
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 32px;
@@ -265,7 +257,6 @@ img {
 }
 
 .hero-text-block h1 {
-    font-family: 'Rubik', sans-serif;
     font-weight: 800;
     font-size: 64px;
     line-height: 80px;
@@ -276,7 +267,6 @@ img {
 }
 
 .hero-text-block p {
-    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -315,14 +305,9 @@ img {
     transform: translateY(-2px);
 }
 
-
 /* ==============================
    GATEWAY SECTION
    ============================== */
-.gateway {
-    background: #FFFFFF;
-}
-
 .gateway-inner {
     display: flex;
     justify-content: space-between;
@@ -344,7 +329,6 @@ img {
 }
 
 .gateway-heading-block h2 {
-    font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
@@ -354,7 +338,6 @@ img {
 }
 
 .gateway-heading-block p {
-    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -377,17 +360,14 @@ img {
 }
 
 .stat-number {
-    font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
     letter-spacing: -0.04em;
     text-transform: capitalize;
-    color: #1C232D;
 }
 
 .stat-label {
-    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -407,38 +387,32 @@ img {
     height: 515px;
 }
 
-.gateway-img-large {
-    width: 100%;
-    height: 294px;
+.gateway-img-large,
+.gateway-img-small-1,
+.gateway-img-small-2 {
     border-radius: 16px;
     overflow: hidden;
     background: #9C9C9C;
+}
+
+.gateway-img-large {
+    width: 100%;
+    height: 294px;
 }
 
 .gateway-img-small-1 {
     width: 203px;
     height: 188px;
-    border-radius: 16px;
-    overflow: hidden;
-    background: #9C9C9C;
 }
 
 .gateway-img-small-2 {
     width: 450px;
     height: 188px;
-    border-radius: 16px;
-    overflow: hidden;
-    background: #9C9C9C;
 }
-
 
 /* ==============================
    DIVERSE TOUR OPTIONS
    ============================== */
-.tours {
-    background: #FFFFFF;
-}
-
 .tours-inner {
     display: flex;
     flex-direction: column;
@@ -475,7 +449,6 @@ img {
 .tour-card > img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     position: absolute;
     inset: 0;
 }
@@ -504,7 +477,6 @@ img {
 }
 
 .tour-card-name {
-    font-family: 'Rubik', sans-serif;
     font-weight: 600;
     font-size: 36px;
     line-height: 36px;
@@ -524,10 +496,6 @@ img {
 .flag-circle {
     width: 24px;
     height: 24px;
-    min-width: 24px;
-    min-height: 24px;
-    max-width: 24px;
-    max-height: 24px;
     background: #FFFFFF;
     border-radius: 50%;
     overflow: hidden;
@@ -540,16 +508,10 @@ img {
 .flag-circle img {
     width: 24px;
     height: 24px;
-    min-width: 24px;
-    min-height: 24px;
-    max-width: 24px;
-    max-height: 24px;
-    object-fit: cover;
     border-radius: 50%;
 }
 
 .tour-card-country span:last-child {
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 18px;
@@ -559,7 +521,6 @@ img {
 }
 
 .tour-card-travelers {
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
@@ -592,14 +553,9 @@ img {
     color: #FFFFFF;
 }
 
-
 /* ==============================
    WHY CHOOSE TRIPBEE
    ============================== */
-.why-choose {
-    background: #FFFFFF;
-}
-
 .why-choose-inner {
     display: flex;
     justify-content: space-between;
@@ -624,14 +580,12 @@ img {
 }
 
 .why-choose-content h2 {
-    font-family: 'Rubik', sans-serif;
     font-weight: 600;
     font-size: 40px;
     line-height: 64px;
     text-align: center;
     letter-spacing: -0.04em;
     text-transform: capitalize;
-    color: #1C232D;
 }
 
 .features-grid {
@@ -662,17 +616,14 @@ img {
 }
 
 .feature-text h3 {
-    font-family: 'Rubik', sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 31px;
     letter-spacing: -0.04em;
     text-transform: capitalize;
-    color: #1C232D;
 }
 
 .feature-text p {
-    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
@@ -681,14 +632,9 @@ img {
     color: #6A778A;
 }
 
-
 /* ==============================
    POPULAR TOURS
    ============================== */
-.popular-tours {
-    background: #FFFFFF;
-}
-
 .popular-tours-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -718,7 +664,6 @@ img {
 .popular-tour-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .popular-tour-details {
@@ -742,7 +687,6 @@ img {
     line-height: 36px;
     letter-spacing: -0.04em;
     text-transform: capitalize;
-    color: #1C232D;
 }
 
 .popular-tour-duration {
@@ -779,17 +723,11 @@ img {
     line-height: 36px;
     letter-spacing: -0.04em;
     text-transform: capitalize;
-    color: #1C232D;
 }
-
 
 /* ==============================
    EXPERT TRAVEL TEAM
    ============================== */
-.team {
-    background: #FFFFFF;
-}
-
 .team-cards {
     display: flex;
     gap: 38px;
@@ -813,7 +751,6 @@ img {
 .team-card > img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     position: absolute;
     inset: 0;
 }
@@ -843,7 +780,6 @@ img {
 }
 
 .team-card-name {
-    font-family: 'Rubik', sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 36px;
@@ -855,7 +791,6 @@ img {
 }
 
 .team-card-role {
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 18px;
@@ -878,7 +813,6 @@ img {
     padding: 8px 12px;
     background: rgba(0, 0, 0, 0.28);
     border-radius: 136px;
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -886,7 +820,6 @@ img {
     text-transform: capitalize;
     color: #FFFFFF;
 }
-
 
 /* ==============================
    CTA BANNER
@@ -912,7 +845,6 @@ img {
 .cta-banner-bg img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     opacity: 0.3;
     mix-blend-mode: soft-light;
 }
@@ -931,7 +863,6 @@ img {
 }
 
 .cta-banner-inner h2 {
-    font-family: 'Rubik', sans-serif;
     font-weight: 600;
     font-size: 64px;
     line-height: 72px;
@@ -941,7 +872,6 @@ img {
 }
 
 .cta-banner-inner p {
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 32px;
@@ -951,14 +881,9 @@ img {
     margin-top: -33px;
 }
 
-
 /* ==============================
    FAQ SECTION — CSS-ONLY ACCORDION
    ============================== */
-.faq-section {
-    background: #FFFFFF;
-}
-
 .faq-container {
     max-width: 1240px;
     margin: 0 auto;
@@ -978,20 +903,17 @@ img {
     gap: 10px;
 }
 
-/* Hide the radio inputs */
 .faq-radio {
     display: none;
 }
 
 .faq-item {
-    background: #FFFFFF;
     border: 1px solid #EFF1F6;
     border-radius: 12px;
     padding: 24px;
     transition: border-color 0.3s ease;
 }
 
-/* Active state when radio is checked */
 .faq-item:has(.faq-radio:checked) {
     border-color: #6F3E8B;
 }
@@ -1004,7 +926,6 @@ img {
 }
 
 .faq-question span {
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -1022,7 +943,6 @@ img {
     flex-shrink: 0;
 }
 
-/* CSS-only icon: plus by default */
 .faq-icon {
     display: block;
     width: 12px;
@@ -1037,7 +957,6 @@ img {
     background: #49494B;
 }
 
-/* Horizontal line (always visible) */
 .faq-icon::before {
     width: 12px;
     height: 2px;
@@ -1045,7 +964,6 @@ img {
     left: 0;
 }
 
-/* Vertical line (plus → minus transition) */
 .faq-icon::after {
     width: 2px;
     height: 12px;
@@ -1054,13 +972,11 @@ img {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* When checked: hide vertical line (minus icon) */
 .faq-radio:checked ~ .faq-question .faq-icon::after {
     transform: rotate(90deg);
     opacity: 0;
 }
 
-/* Answer: collapsed by default */
 .faq-answer {
     max-height: 0;
     overflow: hidden;
@@ -1068,14 +984,12 @@ img {
     margin-top: 0;
 }
 
-/* Answer: expanded when radio checked */
 .faq-radio:checked ~ .faq-answer {
     max-height: 200px;
     margin-top: 12px;
 }
 
 .faq-answer p {
-    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -1091,7 +1005,6 @@ img {
 }
 
 .contact-form-card {
-    background: #FFFFFF;
     border: 1px solid #6F3E8B;
     border-radius: 12px;
     padding: 20px 24px;
@@ -1100,12 +1013,10 @@ img {
 }
 
 .contact-form-card h3 {
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 120%;
     letter-spacing: 0.2px;
-    color: #1C232D;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -1131,11 +1042,9 @@ img {
 }
 
 .form-group label {
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #1C232D;
 }
 
 .form-group input,
@@ -1144,11 +1053,11 @@ img {
     border: 1px solid #E2E2E2;
     border-radius: 8px;
     padding: 12px;
-    font-family: 'Rubik', sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #1C232D;
+    color: inherit;
     outline: none;
     transition: border-color 0.3s ease;
 }
@@ -1176,7 +1085,6 @@ img {
     background: #FFFFFF;
     border: 1px solid #6F3E8B;
     border-radius: 59px;
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 32px;
@@ -1195,7 +1103,6 @@ img {
 .btn-callback:hover svg {
     stroke: #FFFFFF;
 }
-
 
 /* ==============================
    FOOTER
@@ -1216,7 +1123,6 @@ img {
 .footer-bg img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .footer-overlay {
@@ -1241,7 +1147,6 @@ img {
 }
 
 .footer-headline h2 {
-    font-family: 'Rubik', sans-serif;
     font-weight: 600;
     font-size: 64px;
     line-height: 72px;
@@ -1258,7 +1163,6 @@ img {
 }
 
 .footer-newsletter p {
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
@@ -1280,12 +1184,12 @@ img {
 .newsletter-input input {
     border: none;
     outline: none;
-    font-family: 'Rubik', sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     letter-spacing: -0.03em;
-    color: #1C232D;
+    color: inherit;
     flex: 1;
 }
 
@@ -1301,7 +1205,6 @@ img {
     background: #6F3E8B;
     border-radius: 153px;
     border: none;
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 32px;
@@ -1332,7 +1235,6 @@ img {
 }
 
 .footer-logo {
-    font-family: 'Rubik', sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 32px;
@@ -1343,7 +1245,6 @@ img {
 }
 
 .footer-brand p {
-    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -1353,7 +1254,6 @@ img {
 }
 
 .footer-col h4 {
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
@@ -1383,7 +1283,6 @@ img {
     opacity: 0.7;
 }
 
-
 /* ==============================
    BLOG PAGE
    ============================== */
@@ -1410,7 +1309,6 @@ img {
 .blog-hero .page-hero-bg img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .blog-hero .page-hero-overlay {
@@ -1435,7 +1333,6 @@ img {
 }
 
 .blog-hero-content h1 {
-    font-family: 'Rubik', sans-serif;
     font-size: 82px;
     font-weight: 700;
     line-height: 80px;
@@ -1455,7 +1352,6 @@ img {
 /* Blog Posts Grid */
 .blog-posts-section {
     padding: 58px;
-    background: #FFFFFF;
 }
 
 .blog-inner {
@@ -1471,7 +1367,6 @@ img {
 }
 
 .blog-card {
-    background: #FFFFFF;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -1493,7 +1388,6 @@ img {
 .blog-card-img-wrap > img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .blog-card-overlay {
@@ -1526,7 +1420,6 @@ img {
     color: #FFFFFF;
     padding: 8px 10px;
     border-radius: 4px;
-    font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -1552,15 +1445,13 @@ img {
 }
 
 .blog-card-body {
-    padding: 0 22px;
-    padding-top: 42px;
+    padding: 42px 22px 0;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
 .blog-title {
-    font-family: 'Rubik', sans-serif;
     font-size: 32px;
     font-weight: 600;
     color: #121416;
@@ -1584,11 +1475,9 @@ img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    object-fit: cover;
 }
 
 .author-name {
-    font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 40px;
@@ -1596,7 +1485,6 @@ img {
 }
 
 .author-date {
-    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 40px;
@@ -1610,7 +1498,6 @@ img {
 }
 
 .blog-shares span {
-    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 40px;
@@ -1618,7 +1505,6 @@ img {
 }
 
 .blog-snippet {
-    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 149.69%;
@@ -1633,12 +1519,10 @@ img {
 }
 
 .view-post {
-    font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 40px;
     color: #121416;
-    text-decoration: none;
     transition: color 0.3s;
 }
 
@@ -1667,8 +1551,6 @@ img {
     background: #6F3E8B;
     border: 1px solid #FFFFFF;
     border-radius: 59px;
-    text-decoration: none;
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 32px;
@@ -1683,7 +1565,6 @@ img {
 
 /* Top Destinations Section */
 .top-destinations {
-    background: #FFFFFF;
     padding: 58px;
 }
 
@@ -1696,7 +1577,6 @@ img {
 }
 
 .td-header h2 {
-    font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
@@ -1731,7 +1611,6 @@ img {
     border-radius: 28px;
     overflow: hidden;
     display: block;
-    text-decoration: none;
     aspect-ratio: 1 / 1;
 }
 
@@ -1740,7 +1619,6 @@ img {
     inset: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
     z-index: 1;
     transition: transform 0.5s ease;
 }
@@ -1754,7 +1632,7 @@ img {
     inset: 0;
     z-index: 2;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 39.49%, rgba(0, 0, 0, 0.38) 63.5%);
-    border-radius: 0px 0px 28px 28px;
+    border-radius: 0 0 28px 28px;
 }
 
 .td-info {
@@ -1799,7 +1677,6 @@ img {
 }
 
 .td-arrow {
-    box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #6F3E8B;
     border-radius: 153px;
@@ -1824,7 +1701,6 @@ img {
 }
 
 .td-view-all-btn {
-    box-sizing: border-box;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1834,8 +1710,6 @@ img {
     background: #FFFFFF;
     border: 2px solid #6F3E8B;
     border-radius: 153px;
-    text-decoration: none;
-    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 32px;
@@ -1852,7 +1726,6 @@ img {
 .td-view-all-btn:hover svg {
     stroke: #FFFFFF;
 }
-
 
 /* ==============================
    RESPONSIVE
@@ -1948,7 +1821,6 @@ img {
         padding: 0 20px;
     }
 
-    /* Hide nav links/cta by default on mobile */
     .nav-links,
     .nav-cta-wrap {
         display: none;
@@ -1958,7 +1830,6 @@ img {
         display: flex;
     }
 
-    /* CSS-only mobile menu: show when checkbox is checked */
     .nav-toggle-checkbox:checked ~ .nav-links {
         display: flex;
         flex-direction: column;
@@ -1986,7 +1857,6 @@ img {
         z-index: 20;
     }
 
-    /* Hamburger X animation */
     .nav-toggle-checkbox:checked ~ .hamburger span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
     }
