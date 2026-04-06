@@ -1,0 +1,477 @@
+/* ==============================
+   ABOUT US PAGE STYLES
+   ============================== */
+
+/* ===== ABOUT HERO ===== */
+.about-hero {
+    height: 591px;
+}
+
+.about-hero-content {
+    top: 218px;
+    gap: 24px;
+    width: 746px;
+}
+
+.about-hero-content .hero-text-block h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.about-hero-sub {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.about-hero-socials {
+    bottom: 50px;
+}
+
+
+/* ===== GATEWAY / TIMELINE SECTION ===== */
+.about-gateway {
+    background: #FFFFFF;
+}
+
+.about-gateway-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 64px;
+}
+
+.about-gateway-header h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #6F3E8B;
+}
+
+.about-gateway-header p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #6A778A;
+}
+
+/* Timeline */
+.timeline-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.timeline-item {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 300px;
+}
+
+.timeline-header {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    width: 100%;
+    height: 31px;
+}
+
+.timeline-dot {
+    width: 8px;
+    height: 8px;
+    background: #6F3E8B;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.timeline-year {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #6F3E8B;
+    flex-shrink: 0;
+}
+
+.timeline-line {
+    flex: 1;
+    height: 0;
+    border: 2px solid #CDD2D8;
+}
+
+.timeline-body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.timeline-body h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #6F3E8B;
+}
+
+.timeline-body p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #6A778A;
+}
+
+
+/* ===== VIDEO SECTION ===== */
+.about-video {
+    background: #FFFFFF;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 632px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #9C9C9C;
+    cursor: pointer;
+}
+
+.video-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.play-btn-outer {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.video-container:hover .play-btn-outer {
+    transform: scale(1.1);
+}
+
+.play-btn-inner {
+    width: 68px;
+    height: 68px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ===== VISION & MISSION ===== */
+.about-vision-mission {
+    background: #FFFFFF;
+}
+
+.vm-layout {
+    display: flex;
+    gap: 66px;
+}
+
+.vm-left {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    width: 697px;
+    flex-shrink: 0;
+}
+
+.vm-heading-block {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 643px;
+}
+
+.vm-heading-block h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+}
+
+.vm-heading-block p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #6A778A;
+}
+
+.vm-image {
+    width: 697px;
+    height: 472px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #9C9C9C;
+}
+
+.vm-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vm-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.vm-right > h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+}
+
+.mission-items {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.mission-item {
+    display: flex;
+    gap: 24px;
+}
+
+.mission-number {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #6F3E8B;
+    flex-shrink: 0;
+}
+
+.mission-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mission-content h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #6F3E8B;
+}
+
+.mission-content p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #6A778A;
+}
+
+
+/* ===== STATS BANNER ===== */
+.about-stats-banner {
+    width: 100%;
+    height: 296px;
+    background: #4B2B5D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-stats-inner {
+    display: flex;
+    align-items: center;
+    gap: 140px;
+}
+
+.about-stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.about-stat-number {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.about-stat-label {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+/* ==============================
+   RESPONSIVE — ABOUT PAGE
+   ============================== */
+@media (max-width: 1400px) {
+    .timeline-row {
+        flex-wrap: wrap;
+        gap: 40px 35px;
+    }
+
+    .timeline-item {
+        width: calc(50% - 18px);
+    }
+
+    .vm-layout {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .vm-left {
+        width: 100%;
+    }
+
+    .vm-image {
+        width: 100%;
+    }
+
+    .about-stats-inner {
+        gap: 80px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .about-stats-inner {
+        gap: 60px;
+    }
+
+    .about-stat-number {
+        font-size: 48px;
+        line-height: 52px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-hero-content .hero-text-block h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .timeline-row {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .timeline-item {
+        width: 100%;
+    }
+
+    .about-gateway-header h2 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .video-container {
+        height: 300px;
+    }
+
+    .play-btn-outer {
+        width: 70px;
+        height: 70px;
+    }
+
+    .play-btn-inner {
+        width: 48px;
+        height: 48px;
+    }
+
+    .play-btn-inner svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .vm-heading-block h2,
+    .vm-right > h2 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .vm-image {
+        height: 280px;
+    }
+
+    .about-stats-banner {
+        height: auto;
+        padding: 48px 20px;
+    }
+
+    .about-stats-inner {
+        flex-direction: column;
+        gap: 32px;
+        align-items: flex-start;
+    }
+
+    .about-stat-number {
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
